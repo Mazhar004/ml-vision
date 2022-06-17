@@ -15,7 +15,7 @@
   - `pip install --upgrade setuptools`
   - `pip install -r requirements.txt`
 
-## MediaPipe Hand detection
+## MediaPipe Hand Detection
 - Using [MediaPipe](https://google.github.io/mediapipe/solutions/hands) Hand Landmark Detection [[mp_hand_detect_sample.py](mp_hand_detect_sample.py)]
 - Get & Plot all(20) or specific landmark point based on the index
   - Such as index 4 for the thumb
