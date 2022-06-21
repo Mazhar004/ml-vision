@@ -1,6 +1,7 @@
-import cv2
 import sys
+import time
 import os
+import cv2
 
 root = os.path.split(os.path.abspath(__file__))[0]
 
@@ -39,12 +40,8 @@ class Face():
 
     def show(self):
         while True:
-            # Press 'q' for exit
-            exit_key = ord('q')
-            if cv2.waitKey(exit_key) & 255 == exit_key:
-                cv2.destroyAllWindows()
-                break
-            cv2.imshow('Press "q" to Exit', self.re_image)
+            cv2.imshow('Image', self.re_image)
+            cv2.waitKey(1)
 
     def video(self, process_list=['face']):
         face_flag = 0
@@ -58,10 +55,6 @@ class Face():
         vid = cv2.VideoCapture(0)
         while(True):
             ret, frame = vid.read()
-            exit_key = ord('q')
-            if cv2.waitKey(exit_key) & 255 == exit_key:
-                cv2.destroyAllWindows()
-                break
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             faces = self.face(gray)
 
@@ -77,7 +70,8 @@ class Face():
                         cv2.rectangle(roi_color, (ex, ey),
                                       (ex+ew, ey+eh), (0, 255, 0), 2)
 
-            cv2.imshow('Press "q" to Exit', frame)
+            cv2.imshow('Video',frame)
+            cv2.waitKey(1)
 
         vid.release()
         cv2.destroyAllWindows()
