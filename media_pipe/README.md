@@ -26,5 +26,21 @@
         <td><img src="static/demo_hand_tracking.jpg" alt="demo_hand_tracking.jpg" width="470" height="250"/></td>
         </tr>
     </table>
+
+## **MediaPipe Face Mesh** Detection
+- Using [MediaPipe](https://google.github.io/mediapipe/solutions/face_mesh) Face Mesh Detection [[mp_face_mesh_sample.py](mp_face_mesh_sample.py)]
+- Script Run
+  - Argument
+    - **--connected** to connect all landmark [By default False]
+  - Show connected frontal face, eye & lips  
+    - `python mp_face_mesh_sample.py --connected True`
+  - Show all detected landmarks
+    - `python mp_face_mesh_sample.py`
+    <table>
+        <tr align='center'>
+        <td><img src="static/demo_face_mesh.jpg" alt="demo_face_mesh.jpg" width="470" height="250"/></td>
+        </tr>
+    </table>
 ## Referecne
-- Hand Landmark Detection [MediaPipe](https://google.github.io/mediapipe/solutions/hands)
+- Hand Landmark Detection [MediaPipe Hand](https://google.github.io/mediapipe/solutions/hands)
+- Face Mesh Detection [MediaPipe FaceMesh](https://google.github.io/mediapipe/solutions/face_mesh)
