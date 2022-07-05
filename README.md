@@ -22,6 +22,10 @@
     <td><img src="media_pipe/static/demo_hand_tracking.jpg" alt="demo_hand_tracking.jpg" width="300" height="200"/></td>
   </tr>
   <tr>
+    <td><a href="/media_pipe">MediaPipe Face Mesh</a></td>
+    <td><img src="media_pipe/static/demo_face_mesh.jpg" alt="demo_face_mesh.jpg" width="300" height="200"/></td>
+  </tr>
+  <tr>
     <td><a href="/open_cv">OpenCV Face & Eye Detection</a></td>
     <td><img src="open_cv/static/demo_face_eye/female_box.jpg" alt="Female.jpg" width="300" height="270"/></td>
   </tr>
