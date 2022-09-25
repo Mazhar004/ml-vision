@@ -1,4 +1,4 @@
-# ML Vision Tools
+# ML Vision
 ## Installation
 
 ### Python Version
