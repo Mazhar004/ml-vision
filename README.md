@@ -34,4 +34,9 @@
     <td><img src="image_inpainting/static/original.jpeg" alt="Original.jpg" width="300" height="270"/>
     <img src="image_inpainting/static/4_inpaint.png" alt="Inpainted.jpg" width="300" height="270"/></td>
   </tr>
+  <tr>
+    <td><a href="/multiple_column_in_one_page">Image to Text</a></td>
+    <td style="vertical-align:top"><img src="multiple_column_in_one_page/static/pdf_sample.png" alt="Original.jpg" width="300" height="270"/>
+    <img src="multiple_column_in_one_page/static/extracted_sample.png" alt="Inpainted.jpg" width="300" height="100"/></td>
+  </tr>
 </table>
