@@ -13,7 +13,7 @@
 - Library Install
   - `pip install --upgrade pip`
   - `pip install --upgrade setuptools`
-  - Requirements Library based on folder
+  - **Requirements Library based on folder**
 
 ## Demo 
 <table>
@@ -28,5 +28,10 @@
   <tr>
     <td><a href="/open_cv">OpenCV Face & Eye Detection</a></td>
     <td><img src="open_cv/static/demo_face_eye/female_box.jpg" alt="Female.jpg" width="300" height="270"/></td>
+  </tr>
+  <tr>
+    <td><a href="/image_inpainting">Image Inpainting</a></td>
+    <td><img src="image_inpainting/static/original.jpeg" alt="Original.jpg" width="300" height="270"/>
+    <img src="image_inpainting/static/4_inpaint.png" alt="Inpainted.jpg" width="300" height="270"/></td>
   </tr>
 </table>
